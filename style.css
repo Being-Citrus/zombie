@@ -5,7 +5,28 @@ Author URI: http://citrusdesigns.in
 Description: Theme for the Color Zombies site.
 Version 1.0
 */
-
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 body{
   background: #f5f5f5;
+}
+.post-home{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.post-home-overlay{
+  padding: 10px 40px;
+  background: rgba(0,0,0,.4);
+  min-height: 300px;
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.post-home-overlay:hover{
+  background: rgba(0,0,0,.8);
 }
